@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form class</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" name="firstname" id="fname" required placeholder="e.g john" maxlength="10" minlength="3">
+        <br><br>
+        
+        <label for="lname">Last name</label>
+        <input type="text" name="lastname" id="lname" required placeholder="e.g Max">
+        <br><br>
+        
+        <label for="mail">Email Address</label>
+        <input type="email" name="Email" id="mail" required>
+        <br><br>
+
+        <label for="number">Phone Number</label>
+        <input type="number" name="Phone no" id="number" required>
+        <br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="Password" id="pass" required>
+        <br><br>
+
+        <label>Choose your Gender</label><br>
+        <input type="radio" name="sex" id="male" value="Male"><label for="Male">Male</label><br>
+        <input type="radio" name="sex" id="female" value="Female"><label for="Female">Female</label>
+
+        <br><br>
+        <label>Choose your Hobbies</label><br>
+        <input type="checkbox" name="hobbies" id="run" value="Running"><label for="run">Running</label><br>
+        <input type="checkbox" name="hobbies" id="sleep" value="Sleepig"><label for="sleep">Sleeping</label><br>
+        <input type="checkbox" name="hobbies" id="sing" value="Singing"><label for="sing">Singing</label><br><br>
+
+        <label for="cntry">Choose your Country</label>
+        <select name="country" id="cntry">
+            <option value="">---Choose---</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="Togo">Togo</option>
+            <option value="US">US</option>
+            <option value="Brazil">Brazil</option>
+        </select><br><br>
+
+        <label for="bio">Describe Yourself (Bio)</label><br>
+        <textarea name="bio" id="bio" cols="60" rows="5"></textarea>
+
+
+        
+        <br><br><br>
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>
